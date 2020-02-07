@@ -8,13 +8,13 @@ Notetaker is an application that can be used to write, save, and delete notes. T
 
 * The application should have a `db.json` file on the backend that will be used to store and retrieve notes.  
 
-* The following API routes should be created:
+* API routes:
 
-  * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
+  * GET `/api/notes` - Reads the `db.json` file and return all saved notes as JSON.
 
-  * POST `/api/notes` - Should recieve a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
+  * POST `/api/notes` - Receives a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
 
-  * DELETE `/api/notes/:id` - Should recieve a query paramter containing the id of a note to delete. 
+  * DELETE `/api/notes/:id` - Receives a query paramter containing the id of a note to delete. 
 
 ## User Story
 
