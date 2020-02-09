@@ -6,7 +6,7 @@ Notetaker is an application that can be used to write, save, and delete notes. T
 
 * The application frontend consists of two html files, notes.html and index.html
 
-* The application should have a `db.json` file on the backend that will be used to store and retrieve notes.  
+* The application has a `db.json` file on the backend that will be used to store and retrieve notes.  
 
 * API routes:
 
