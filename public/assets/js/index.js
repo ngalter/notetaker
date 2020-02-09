@@ -34,20 +34,6 @@ var deleteNote = function(id) {
   });
 };
 
-
-
-
-// var deleteNote = function (id) {
-//   let note = db.find(({ id }) => id === JSON.parse(req.params.id));
-//   // removes object at index of note id
-//   db.splice(db.indexOf(note), 1);
-  
-//   fs.writeFile('db/db.json', data, (err) => {
-//     if (err) throw err;
-//     console.log('Data written to file');
-//   });
-// }
-
 // If there is an activeNote, display it, otherwise render empty inputs
 var renderActiveNote = function() {
   $saveNoteBtn.hide();
